@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página inicial</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Boas vindas rejane</h1>
+    <p>o que você acha de me pagar?</p>
+    <div class="saudação" id="mensagemsaudacao">RAPIDO !!!</div>
+    <button onClick="mudarnome()">click aqui</button>
+  </div>
+
+  <script>
+    function mudarnome(){
+        let nome = "eu quero o meu dinheiro!"
+        document.getElementById("mensagemsaudacao").textContent = " " + nome
+    }
+  </script>
+
+</body>
+</html>
